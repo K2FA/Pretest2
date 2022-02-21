@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="{{asset('css/tailwind.css')}}">
 
     <!-- ==== WOW JS ==== -->
-    <script src="{{asset('js/main.js')}}"></script>
     <script src="{{mix('js/app.js')}}"></script>
     <script>
       new WOW().init();
     </script>
+        <script src="{{asset('js/main.js')}}"></script>
   </head>
   <body>
     <!-- ====== Navbar Section Start -->
